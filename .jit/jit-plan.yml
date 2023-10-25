@@ -8,6 +8,8 @@ references:
   - https://www.jit.io
 tags: []
 items:
+  - name: Scan your API for vulnerabilities
+    uses: jitsecurity-controls/jit-plans/items/runtime/item-api-security.yml@latest
   - name: Ensure all credentials used by your applications are not hard-coded
     uses: >-
       jitsecurity-controls/jit-plans/items/identity_and_access_management/item-aws-ftr-secret-detection.yml@latest
@@ -83,12 +85,4 @@ items:
       outside of your VPC
     uses: >-
       jitsecurity-controls/jit-plans/items/sensitive_data/item-sensitive-data-encrypt-out-vpc.yml@latest
-  - name: Enable AWS Business Support (or greater) on all production AWS accounts
-    uses: >-
-      jitsecurity-controls/jit-plans/items/support_level/item-support-business.yml@latest
-    input:
-      note: vhjda
-      status: passed
-  - name: Scan your API for vulnerabilities
-    uses: jitsecurity-controls/jit-plans/items/runtime/item-api-security.yml@latest
 
