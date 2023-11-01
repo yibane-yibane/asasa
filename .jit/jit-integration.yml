@@ -5,5 +5,5 @@ jira:
       email: eliya@jit.io0
       domain: eliya-test-99
     preferences:
-      project_id: 10000
+      project_id: 10002
       issue_type_id: 10001
