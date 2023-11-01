@@ -2,8 +2,8 @@ jira:
   shimi:
     auth:
       api_token: ${{ jit_secrets.jira-api }}
-      email: eliya@jit.io
+      email: eliya@jit.io0
       domain: eliya-test-99
     preferences:
-      project_id: 10002
+      project_id: 10001
       issue_type_id: 10001
