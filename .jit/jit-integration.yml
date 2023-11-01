@@ -9,4 +9,4 @@ jira:
       issue_type_id: 10001
       fields:
         customfield_10044:
-          value: "10032"
+          - value: "10032"
