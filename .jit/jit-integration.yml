@@ -11,5 +11,4 @@ jira:
         customfield_10034:
           - value: "1"
         components: 
-          - value: 
-            name: "aaaa"
+          - value: "aaaa"
