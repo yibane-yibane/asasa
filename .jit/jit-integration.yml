@@ -11,6 +11,6 @@ jira:
         customfield_10034:
           - value: "1"
         customfield_10048:
-          name: "eliya darchi"
+          value: "eliya darchi"
         assignee:
           name: "eliya darchi"
