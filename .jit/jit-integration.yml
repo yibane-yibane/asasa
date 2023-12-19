@@ -12,5 +12,5 @@ jira:
           - value: "1"
         assignee:
           id: "6400a2b5896d10ebd47114df"
-        componentss:
+        components:
           - name: "aaaa"
